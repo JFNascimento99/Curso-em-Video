@@ -2,11 +2,12 @@ package exercicio02;
 
 public class Lavadora {
 	String esponja;
-	float sabonete;
+	int sabonete;
 	boolean agua;
-	float tempo;
 	
 	void status() {
-		System.out.println("");
+		System.out.println("Qualidade da esponja: " + this.esponja);
+		System.out.println("Quantidade de sabonete: " + this.sabonete + " ml");
+		System.out.println("Tem água? " + this.agua);
 	}
 }
