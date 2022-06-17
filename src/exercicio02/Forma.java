@@ -12,9 +12,9 @@ public class Forma {
 	void status() {
 		System.out.println("Um bolo de " + this.sabor);
 		System.out.println("Com corbetura de " + this.cobertura);
-		System.out.println("Na forma de " + this.formato);
-		System.out.println("Tem um raio de " + this.tamanho + "cm");
-		System.out.println("Que custa " + this.preço);
+		System.out.println("No formato " + this.formato);
+		System.out.println("Tem um raio de " + this.tamanho + " cm");
+		System.out.println("Que custa " + this.preço + " reais");
 		System.out.println("Já está assado? " + this.assado);
 	}
 	
@@ -25,6 +25,10 @@ public class Forma {
 			this.noForno = true;
 			System.out.println("Está assando");
 		}
+	}
+	
+	void colocar(){
+		this.noForno = true;
 	}
 	
 	void tirar() {
