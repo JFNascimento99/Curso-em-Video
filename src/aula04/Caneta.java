@@ -9,7 +9,7 @@ public class Caneta {
 	public Caneta(String m, String c, float p) { // método construtor
 		this.modelo = m;
 		this.cor = c;
-		this.ponta = p;
+		this.ponta = p; 
 		this.tampar();
 	}
 	
